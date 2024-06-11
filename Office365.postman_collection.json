@@ -76,7 +76,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/v1/tokens/",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/apiTokens/",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -152,7 +152,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/v1/tokens/{{DELETE_TOKEN}}",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/apiTokens/{{DELETE_TOKEN}}",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -215,7 +215,7 @@
 							"raw": "{\r\n  \"name\": \"{{NAME_API_TOKEN_CREDENTIAL_VAULT_ACCESS}}\",\r\n  \"revoked\": false,\r\n  \"scopes\": [\r\n    \"credentialVault.write\",\r\n    \"credentialVault.read\"\r\n  ],\r\n  \"personalAccessToken\": false\r\n}"
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/v1/tokens/",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/apiTokens/",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -310,7 +310,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/v1/tokens/",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/apiTokens/",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -388,7 +388,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/v1/tokens/{{DELETE_TOKEN}}",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/apiTokens/{{DELETE_TOKEN}}",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -452,7 +452,7 @@
 							"raw": "{\r\n  \"name\": \"{{NAME_API_TOKEN_METRICS_INGEST}}\",\r\n  \"revoked\": false,\r\n  \"scopes\": [\r\n    \"metrics.ingest\"\r\n  ],\r\n  \"personalAccessToken\": false\r\n}"
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/v1/tokens",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/apiTokens",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -546,7 +546,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/v1/tokens/",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/apiTokens/",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -622,7 +622,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/v1/tokens/{{DELETE_TOKEN}}",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/apiTokens/{{DELETE_TOKEN}}",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -686,7 +686,7 @@
 							"raw": "{\r\n  \"name\": \"{{NAME_API_TOKEN_MONITOR_CREATION}}\",\r\n  \"revoked\": false,\r\n  \"scopes\": [\r\n    \"ExternalSyntheticIntegration\",\r\n    \"ReadConfig\",\r\n    \"WriteConfig\"\r\n  ],\r\n  \"personalAccessToken\": false\r\n}"
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/v1/tokens",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/apiTokens",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -771,7 +771,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials?type=TOKEN",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials?type=TOKEN",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -852,7 +852,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials/{{DELETE_TOKEN}}",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials/{{DELETE_TOKEN}}",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -915,7 +915,7 @@
 							"raw": "{\r\n  \"name\": \"{{NAME_CREDENTIALS_METRICS_INGEST_TOKEN}}\",\r\n  \"type\": \"TOKEN\",\r\n  \"token\": \"{{API_TOKEN_METRICS_INGEST}}\",\r\n  \"ownerAccessOnly\": \"false\",\r\n  \"scope\": \"SYNTHETIC\"\r\n}"
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -1001,7 +1001,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials?type=TOKEN",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials?type=TOKEN",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -1082,7 +1082,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials/{{DELETE_TOKEN}}",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials/{{DELETE_TOKEN}}",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -1145,7 +1145,7 @@
 							"raw": "{\r\n  \"name\": \"{{NAME_CREDENTIALS_CREDENTIAL_VAULT_TOKEN}}\",\r\n  \"type\": \"TOKEN\",\r\n  \"token\": \"{{API_TOKEN_CREDENTIAL_VAULT}}\",\r\n  \"ownerAccessOnly\": \"false\",\r\n  \"scope\": \"SYNTHETIC\"\r\n}"
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -1231,7 +1231,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials?type=TOKEN",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials?type=TOKEN",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -1312,7 +1312,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials/{{DELETE_TOKEN}}",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials/{{DELETE_TOKEN}}",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -1456,7 +1456,7 @@
 							"raw": "{\r\n  \"name\": \"{{NAME_CREDENTIALS_OFFICE365_ACCESS_TOKEN}}\",\r\n  \"type\": \"TOKEN\",\r\n  \"token\": \"{{OFFICE365_ACCESS_TOKEN}}\",\r\n  \"ownerAccessOnly\": \"false\",\r\n  \"scope\": \"SYNTHETIC\"\r\n}"
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -1542,7 +1542,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials?type=TOKEN",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials?type=TOKEN",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -1623,7 +1623,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials/{{DELETE_TOKEN}}",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials/{{DELETE_TOKEN}}",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -1767,7 +1767,7 @@
 							"raw": "{\r\n  \"name\": \"{{NAME_CREDENTIALS_OFFICE365_MANAGE_ACCESS_TOKEN}}\",\r\n  \"type\": \"TOKEN\",\r\n  \"token\": \"{{OFFICE365_MANAGE_ACCESS_TOKEN}}\",\r\n  \"ownerAccessOnly\": \"false\",\r\n  \"scope\": \"SYNTHETIC\"\r\n}"
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -1853,7 +1853,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials?type=TOKEN",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials?type=TOKEN",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -1934,7 +1934,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials/{{DELETE_TOKEN}}",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials/{{DELETE_TOKEN}}",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -1997,7 +1997,7 @@
 							"raw": "{\r\n  \"name\": \"{{NAME_CREDENTIALS_OFFICE365_CLIENT_SECRET}}\",\r\n  \"type\": \"TOKEN\",\r\n  \"token\": \"{{OFFICE365_CLIENT_SECRET}}\",\r\n  \"ownerAccessOnly\": \"false\",\r\n  \"scope\": \"SYNTHETIC\"\r\n}"
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -2083,7 +2083,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials?type=TOKEN",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials?type=TOKEN",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -2164,7 +2164,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials/{{DELETE_TOKEN}}",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials/{{DELETE_TOKEN}}",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -2227,7 +2227,7 @@
 							"raw": "{\r\n  \"name\": \"{{NAME_CREDENTIALS_OFFICE365_CLIENT_ID}}\",\r\n  \"type\": \"TOKEN\",\r\n  \"token\": \"{{AZURE_CLIENT_ID}}\",\r\n  \"ownerAccessOnly\": \"false\",\r\n  \"scope\": \"SYNTHETIC\"\r\n}"
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -2313,7 +2313,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials?type=TOKEN",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials?type=TOKEN",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -2394,7 +2394,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials/{{DELETE_TOKEN}}",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials/{{DELETE_TOKEN}}",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -2457,7 +2457,7 @@
 							"raw": "{\r\n  \"name\": \"{{NAME_CREDENTIALS_OFFICE365_TENANT}}\",\r\n  \"type\": \"TOKEN\",\r\n  \"token\": \"{{AZURE_TENANT}}\",\r\n  \"ownerAccessOnly\": \"false\",\r\n  \"scope\": \"SYNTHETIC\"\r\n}"
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/config/v1/credentials",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/credentials",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
@@ -2797,7 +2797,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"name\": \"{{NAME_MONITOR_TOKEN_REFRESH}}\",\r\n  \"frequencyMin\": 30,\r\n  \"enabled\": true,\r\n  \"type\": \"HTTP\",\r\n  \"createdFrom\": \"API\",\r\n  \"script\": {\r\n    \"version\": \"1.0\",\r\n    \"requests\": [\r\n      {\r\n        \"description\": \"oauth2/v2.0/token\",\r\n        \"url\": \"https://login.microsoftonline.com/{{{ID_CREDENTIALS_OFFICE365_AZURE_TENANT}}|token}/oauth2/v2.0/token\",\r\n        \"method\": \"POST\",\r\n        \"requestBody\": \"client_id={{{ID_CREDENTIALS_OFFICE365_CLIENT_ID}}|token}&scope=https%3A%2F%2Fgraph.microsoft.com%2F.default&client_secret={{{ID_CREDENTIALS_OFFICE365_CLIENT_SECRET}}|token}&grant_type=client_credentials\",\r\n        \"validation\": {\r\n          \"rules\": [\r\n            {\r\n              \"value\": \">=400\",\r\n              \"passIfFound\": false,\r\n              \"type\": \"httpStatusesList\"\r\n            }\r\n          ],\r\n          \"rulesChaining\": \"or\"\r\n        },\r\n        \"configuration\": {\r\n          \"requestHeaders\": [\r\n            {\r\n              \"name\": \"Content-Type\",\r\n              \"value\": \"application/x-www-form-urlencoded\"\r\n            }\r\n          ],\r\n          \"acceptAnyCertificate\": true,\r\n          \"followRedirects\": true\r\n        },\r\n        \"postProcessingScript\": \"if (response.getStatusCode() != 200) {\\n    api.fail(\\\"HTTP error: \\\" + response.getStatusCode());\\n}\\napi.setValue(\\\"access_token\\\", JSON.parse(response.getResponseBody()).access_token);\"\r\n      },\r\n      {\r\n        \"description\": \"store-access-token\",\r\n        \"url\": \"{{ENVIRONMENT_URL}}/api/config/v1/credentials/{{ID_CREDENTIALS_OFFICE365_ACCESS_TOKEN}}\",\r\n        \"method\": \"PUT\",\r\n        \"requestBody\": \"{\\r\\n  \\\"name\\\": \\\"{{NAME_CREDENTIALS_OFFICE365_ACCESS_TOKEN}}\\\",\\r\\n  \\\"token\\\": \\\"{access_token}\\\",\\r\\n  \\\"type\\\": \\\"TOKEN\\\",\\r\\n  \\\"description\\\": \\\"\\\",\\r\\n  \\\"ownerAccessOnly\\\": false,\\r\\n  \\\"scope\\\": \\\"SYNTHETIC\\\"\\r\\n}\",\r\n        \"validation\": {\r\n          \"rules\": [\r\n            {\r\n              \"value\": \">=400\",\r\n              \"passIfFound\": false,\r\n              \"type\": \"httpStatusesList\"\r\n            }\r\n          ],\r\n          \"rulesChaining\": \"or\"\r\n        },\r\n        \"configuration\": {\r\n          \"requestHeaders\": [\r\n            {\r\n              \"name\": \"Accept\",\r\n              \"value\": \"application/json; charset=utf-8\"\r\n            },\r\n            {\r\n              \"name\": \"Authorization\",\r\n              \"value\": \"Api-Token {{{ID_CREDENTIALS_ACCESS_CREDENTIAL_VAULT}}|token}\"\r\n            },\r\n            {\r\n              \"name\": \"Content-Type\",\r\n              \"value\": \"application/json; charset=utf-8\"\r\n            }\r\n          ],\r\n          \"acceptAnyCertificate\": true,\r\n          \"followRedirects\": true\r\n        }\r\n      },\r\n      {\r\n        \"description\": \"oauth2/v2.0/manage_token\",\r\n        \"url\": \"https://login.microsoftonline.com/{{{ID_CREDENTIALS_OFFICE365_AZURE_TENANT}}|token}/oauth2/v2.0/token\",\r\n        \"method\": \"POST\",\r\n        \"requestBody\": \"client_id={{{ID_CREDENTIALS_OFFICE365_CLIENT_ID}}|token}&scope=https%3A%2F%2Fmanage.office.com%2F.default&client_secret={{{ID_CREDENTIALS_OFFICE365_CLIENT_SECRET}}|token}&grant_type=client_credentials\",\r\n        \"validation\": {\r\n          \"rules\": [\r\n            {\r\n              \"value\": \">=400\",\r\n              \"passIfFound\": false,\r\n              \"type\": \"httpStatusesList\"\r\n            }\r\n          ],\r\n          \"rulesChaining\": \"or\"\r\n        },\r\n        \"configuration\": {\r\n          \"requestHeaders\": [\r\n            {\r\n              \"name\": \"Content-Type\",\r\n              \"value\": \"application/x-www-form-urlencoded\"\r\n            }\r\n          ],\r\n          \"acceptAnyCertificate\": true,\r\n          \"followRedirects\": true\r\n        },\r\n        \"postProcessingScript\": \"if (response.getStatusCode() != 200) {\\n    api.fail(\\\"HTTP error: \\\" + response.getStatusCode());\\n}\\napi.setValue(\\\"manage_access_token\\\", JSON.parse(response.getResponseBody()).access_token);\"\r\n      },\r\n      {\r\n        \"description\": \"store-manage-access-token\",\r\n        \"url\": \"{{ENVIRONMENT_URL}}/api/config/v1/credentials/{{ID_CREDENTIALS_OFFICE365_MANAGE_ACCESS_TOKEN}}\",\r\n        \"method\": \"PUT\",\r\n        \"requestBody\": \"{\\r\\n  \\\"name\\\": \\\"{{NAME_CREDENTIALS_OFFICE365_MANAGE_ACCESS_TOKEN}}\\\",\\r\\n  \\\"token\\\": \\\"{manage_access_token}\\\",\\r\\n  \\\"type\\\": \\\"TOKEN\\\",\\r\\n  \\\"description\\\": \\\"\\\",\\r\\n  \\\"ownerAccessOnly\\\": false,\\r\\n  \\\"scope\\\": \\\"SYNTHETIC\\\"\\r\\n}\",\r\n        \"validation\": {\r\n          \"rules\": [\r\n            {\r\n              \"value\": \">=400\",\r\n              \"passIfFound\": false,\r\n              \"type\": \"httpStatusesList\"\r\n            }\r\n          ],\r\n          \"rulesChaining\": \"or\"\r\n        },\r\n        \"configuration\": {\r\n          \"requestHeaders\": [\r\n            {\r\n              \"name\": \"Accept\",\r\n              \"value\": \"application/json; charset=utf-8\"\r\n            },\r\n            {\r\n              \"name\": \"Authorization\",\r\n              \"value\": \"Api-Token {{{ID_CREDENTIALS_ACCESS_CREDENTIAL_VAULT}}|token}\"\r\n            },\r\n            {\r\n              \"name\": \"Content-Type\",\r\n              \"value\": \"application/json; charset=utf-8\"\r\n            }\r\n          ],\r\n          \"acceptAnyCertificate\": true,\r\n          \"followRedirects\": true\r\n        }\r\n      }      \r\n    ]\r\n  },\r\n  \"locations\": [\r\n    \"{{GEO_LOCATION_DUBLIN_ID}}\"\r\n  ],\r\n  \"anomalyDetection\": {\r\n    \"outageHandling\": {\r\n      \"globalOutage\": true,\r\n      \"localOutage\": false,\r\n      \"localOutagePolicy\": {\r\n        \"affectedLocations\": 1,\r\n        \"consecutiveRuns\": 3\r\n      }\r\n    },\r\n    \"loadingTimeThresholds\": {\r\n      \"enabled\": false,\r\n      \"thresholds\": [\r\n        {\r\n          \"type\": \"TOTAL\",\r\n          \"valueMs\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  \"tags\": [],\r\n  \"managementZones\": [],\r\n  \"automaticallyAssignedApps\": [],\r\n  \"manuallyAssignedApps\": [],\r\n  \"requests\": [\r\n    {\r\n      \"name\": \"oauth2/v2.0/token\",\r\n      \"sequenceNumber\": 1\r\n    },\r\n    {\r\n      \"name\": \"store-access-token\",\r\n      \"sequenceNumber\": 2\r\n    },\r\n    {\r\n      \"name\": \"oauth2/v2.0/manage_token\",\r\n      \"sequenceNumber\": 3\r\n    },\r\n    {\r\n      \"name\": \"store-manage-access-token\",\r\n      \"sequenceNumber\": 4\r\n    }    \r\n  ]\r\n}"
+							"raw": "{\r\n  \"name\": \"{{NAME_MONITOR_TOKEN_REFRESH}}\",\r\n  \"frequencyMin\": 30,\r\n  \"enabled\": true,\r\n  \"type\": \"HTTP\",\r\n  \"createdFrom\": \"API\",\r\n  \"script\": {\r\n    \"version\": \"1.0\",\r\n    \"requests\": [\r\n      {\r\n        \"description\": \"oauth2/v2.0/token\",\r\n        \"url\": \"https://login.microsoftonline.com/{{{ID_CREDENTIALS_OFFICE365_AZURE_TENANT}}|token}/oauth2/v2.0/token\",\r\n        \"method\": \"POST\",\r\n        \"requestBody\": \"client_id={{{ID_CREDENTIALS_OFFICE365_CLIENT_ID}}|token}&scope=https%3A%2F%2Fgraph.microsoft.com%2F.default&client_secret={{{ID_CREDENTIALS_OFFICE365_CLIENT_SECRET}}|token}&grant_type=client_credentials\",\r\n        \"validation\": {\r\n          \"rules\": [\r\n            {\r\n              \"value\": \">=400\",\r\n              \"passIfFound\": false,\r\n              \"type\": \"httpStatusesList\"\r\n            }\r\n          ],\r\n          \"rulesChaining\": \"or\"\r\n        },\r\n        \"configuration\": {\r\n          \"requestHeaders\": [\r\n            {\r\n              \"name\": \"Content-Type\",\r\n              \"value\": \"application/x-www-form-urlencoded\"\r\n            }\r\n          ],\r\n          \"acceptAnyCertificate\": true,\r\n          \"followRedirects\": true\r\n        },\r\n        \"postProcessingScript\": \"if (response.getStatusCode() != 200) {\\n    api.fail(\\\"HTTP error: \\\" + response.getStatusCode());\\n}\\napi.setValue(\\\"access_token\\\", JSON.parse(response.getResponseBody()).access_token);\"\r\n      },\r\n      {\r\n        \"description\": \"store-access-token\",\r\n        \"url\": \"{{ENVIRONMENT_URL}}/api/v2/credentials/{{ID_CREDENTIALS_OFFICE365_ACCESS_TOKEN}}\",\r\n        \"method\": \"PUT\",\r\n        \"requestBody\": \"{\\r\\n  \\\"name\\\": \\\"{{NAME_CREDENTIALS_OFFICE365_ACCESS_TOKEN}}\\\",\\r\\n  \\\"token\\\": \\\"{access_token}\\\",\\r\\n  \\\"type\\\": \\\"TOKEN\\\",\\r\\n  \\\"description\\\": \\\"\\\",\\r\\n  \\\"ownerAccessOnly\\\": false,\\r\\n  \\\"scope\\\": \\\"SYNTHETIC\\\"\\r\\n}\",\r\n        \"validation\": {\r\n          \"rules\": [\r\n            {\r\n              \"value\": \">=400\",\r\n              \"passIfFound\": false,\r\n              \"type\": \"httpStatusesList\"\r\n            }\r\n          ],\r\n          \"rulesChaining\": \"or\"\r\n        },\r\n        \"configuration\": {\r\n          \"requestHeaders\": [\r\n            {\r\n              \"name\": \"Accept\",\r\n              \"value\": \"application/json; charset=utf-8\"\r\n            },\r\n            {\r\n              \"name\": \"Authorization\",\r\n              \"value\": \"Api-Token {{{ID_CREDENTIALS_ACCESS_CREDENTIAL_VAULT}}|token}\"\r\n            },\r\n            {\r\n              \"name\": \"Content-Type\",\r\n              \"value\": \"application/json; charset=utf-8\"\r\n            }\r\n          ],\r\n          \"acceptAnyCertificate\": true,\r\n          \"followRedirects\": true\r\n        }\r\n      },\r\n      {\r\n        \"description\": \"oauth2/v2.0/manage_token\",\r\n        \"url\": \"https://login.microsoftonline.com/{{{ID_CREDENTIALS_OFFICE365_AZURE_TENANT}}|token}/oauth2/v2.0/token\",\r\n        \"method\": \"POST\",\r\n        \"requestBody\": \"client_id={{{ID_CREDENTIALS_OFFICE365_CLIENT_ID}}|token}&scope=https%3A%2F%2Fmanage.office.com%2F.default&client_secret={{{ID_CREDENTIALS_OFFICE365_CLIENT_SECRET}}|token}&grant_type=client_credentials\",\r\n        \"validation\": {\r\n          \"rules\": [\r\n            {\r\n              \"value\": \">=400\",\r\n              \"passIfFound\": false,\r\n              \"type\": \"httpStatusesList\"\r\n            }\r\n          ],\r\n          \"rulesChaining\": \"or\"\r\n        },\r\n        \"configuration\": {\r\n          \"requestHeaders\": [\r\n            {\r\n              \"name\": \"Content-Type\",\r\n              \"value\": \"application/x-www-form-urlencoded\"\r\n            }\r\n          ],\r\n          \"acceptAnyCertificate\": true,\r\n          \"followRedirects\": true\r\n        },\r\n        \"postProcessingScript\": \"if (response.getStatusCode() != 200) {\\n    api.fail(\\\"HTTP error: \\\" + response.getStatusCode());\\n}\\napi.setValue(\\\"manage_access_token\\\", JSON.parse(response.getResponseBody()).access_token);\"\r\n      },\r\n      {\r\n        \"description\": \"store-manage-access-token\",\r\n        \"url\": \"{{ENVIRONMENT_URL}}/api/v2/credentials/{{ID_CREDENTIALS_OFFICE365_MANAGE_ACCESS_TOKEN}}\",\r\n        \"method\": \"PUT\",\r\n        \"requestBody\": \"{\\r\\n  \\\"name\\\": \\\"{{NAME_CREDENTIALS_OFFICE365_MANAGE_ACCESS_TOKEN}}\\\",\\r\\n  \\\"token\\\": \\\"{manage_access_token}\\\",\\r\\n  \\\"type\\\": \\\"TOKEN\\\",\\r\\n  \\\"description\\\": \\\"\\\",\\r\\n  \\\"ownerAccessOnly\\\": false,\\r\\n  \\\"scope\\\": \\\"SYNTHETIC\\\"\\r\\n}\",\r\n        \"validation\": {\r\n          \"rules\": [\r\n            {\r\n              \"value\": \">=400\",\r\n              \"passIfFound\": false,\r\n              \"type\": \"httpStatusesList\"\r\n            }\r\n          ],\r\n          \"rulesChaining\": \"or\"\r\n        },\r\n        \"configuration\": {\r\n          \"requestHeaders\": [\r\n            {\r\n              \"name\": \"Accept\",\r\n              \"value\": \"application/json; charset=utf-8\"\r\n            },\r\n            {\r\n              \"name\": \"Authorization\",\r\n              \"value\": \"Api-Token {{{ID_CREDENTIALS_ACCESS_CREDENTIAL_VAULT}}|token}\"\r\n            },\r\n            {\r\n              \"name\": \"Content-Type\",\r\n              \"value\": \"application/json; charset=utf-8\"\r\n            }\r\n          ],\r\n          \"acceptAnyCertificate\": true,\r\n          \"followRedirects\": true\r\n        }\r\n      }      \r\n    ]\r\n  },\r\n  \"locations\": [\r\n    \"{{GEO_LOCATION_DUBLIN_ID}}\"\r\n  ],\r\n  \"anomalyDetection\": {\r\n    \"outageHandling\": {\r\n      \"globalOutage\": true,\r\n      \"localOutage\": false,\r\n      \"localOutagePolicy\": {\r\n        \"affectedLocations\": 1,\r\n        \"consecutiveRuns\": 3\r\n      }\r\n    },\r\n    \"loadingTimeThresholds\": {\r\n      \"enabled\": false,\r\n      \"thresholds\": [\r\n        {\r\n          \"type\": \"TOTAL\",\r\n          \"valueMs\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  \"tags\": [],\r\n  \"managementZones\": [],\r\n  \"automaticallyAssignedApps\": [],\r\n  \"manuallyAssignedApps\": [],\r\n  \"requests\": [\r\n    {\r\n      \"name\": \"oauth2/v2.0/token\",\r\n      \"sequenceNumber\": 1\r\n    },\r\n    {\r\n      \"name\": \"store-access-token\",\r\n      \"sequenceNumber\": 2\r\n    },\r\n    {\r\n      \"name\": \"oauth2/v2.0/manage_token\",\r\n      \"sequenceNumber\": 3\r\n    },\r\n    {\r\n      \"name\": \"store-manage-access-token\",\r\n      \"sequenceNumber\": 4\r\n    }    \r\n  ]\r\n}"
 						},
 						"url": {
 							"raw": "{{ENVIRONMENT_URL}}/api/v1/synthetic/monitors",
@@ -3633,7 +3633,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{ENVIRONMENT_URL}}/api/v1/tokens/{{ID_API_TOKEN_MONITOR_SCHEDULING}}",
+							"raw": "{{ENVIRONMENT_URL}}/api/v2/apiTokens/{{ID_API_TOKEN_MONITOR_SCHEDULING}}",
 							"host": [
 								"{{ENVIRONMENT_URL}}"
 							],
