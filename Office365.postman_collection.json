@@ -82,8 +82,8 @@
 							],
 							"path": [
 								"api",
-								"v1",
-								"tokens",
+								"v2",
+								"apiTokens",
 								""
 							]
 						}
@@ -158,8 +158,8 @@
 							],
 							"path": [
 								"api",
-								"v1",
-								"tokens",
+								"v2",
+								"apiTokens",
 								"{{DELETE_TOKEN}}"
 							]
 						}
@@ -221,8 +221,8 @@
 							],
 							"path": [
 								"api",
-								"v1",
-								"tokens",
+								"v2",
+								"apiTokens",
 								""
 							]
 						}
@@ -316,8 +316,8 @@
 							],
 							"path": [
 								"api",
-								"v1",
-								"tokens",
+								"v2",
+								"apiTokens",
 								""
 							]
 						}
@@ -394,8 +394,8 @@
 							],
 							"path": [
 								"api",
-								"v1",
-								"tokens",
+								"v2",
+								"apiTokens",
 								"{{DELETE_TOKEN}}"
 							]
 						}
@@ -458,8 +458,8 @@
 							],
 							"path": [
 								"api",
-								"v1",
-								"tokens"
+								"v2",
+								"apiTokens"
 							]
 						}
 					},
@@ -552,8 +552,8 @@
 							],
 							"path": [
 								"api",
-								"v1",
-								"tokens",
+								"v2",
+								"apiTokens",
 								""
 							]
 						}
@@ -628,8 +628,8 @@
 							],
 							"path": [
 								"api",
-								"v1",
-								"tokens",
+								"v2",
+								"apiTokens",
 								"{{DELETE_TOKEN}}"
 							]
 						}
@@ -692,8 +692,8 @@
 							],
 							"path": [
 								"api",
-								"v1",
-								"tokens"
+								"v2",
+								"apiTokens"
 							]
 						}
 					},
@@ -777,8 +777,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							],
 							"query": [
@@ -858,8 +857,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials",
 								"{{DELETE_TOKEN}}"
 							]
@@ -921,8 +919,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							]
 						}
@@ -1007,8 +1004,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							],
 							"query": [
@@ -1088,8 +1084,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials",
 								"{{DELETE_TOKEN}}"
 							]
@@ -1151,8 +1146,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							]
 						}
@@ -1237,8 +1231,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							],
 							"query": [
@@ -1318,8 +1311,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials",
 								"{{DELETE_TOKEN}}"
 							]
@@ -1462,8 +1454,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							]
 						}
@@ -1548,8 +1539,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							],
 							"query": [
@@ -1629,8 +1619,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials",
 								"{{DELETE_TOKEN}}"
 							]
@@ -1773,8 +1762,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							]
 						}
@@ -1859,8 +1847,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							],
 							"query": [
@@ -1940,8 +1927,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials",
 								"{{DELETE_TOKEN}}"
 							]
@@ -2003,8 +1989,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							]
 						}
@@ -2089,8 +2074,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							],
 							"query": [
@@ -2170,8 +2154,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials",
 								"{{DELETE_TOKEN}}"
 							]
@@ -2233,8 +2216,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							]
 						}
@@ -2319,8 +2301,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							],
 							"query": [
@@ -2400,8 +2381,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials",
 								"{{DELETE_TOKEN}}"
 							]
@@ -2463,8 +2443,7 @@
 							],
 							"path": [
 								"api",
-								"config",
-								"v1",
+								"v2",
 								"credentials"
 							]
 						}
@@ -3639,8 +3618,8 @@
 							],
 							"path": [
 								"api",
-								"v1",
-								"tokens",
+								"v2",
+								"apiTokens",
 								"{{ID_API_TOKEN_MONITOR_SCHEDULING}}"
 							]
 						}
